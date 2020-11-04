@@ -157,6 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (current.some(index => squares[currentPosition + index].classList.contains('block2'))) {
             scoreDisplay.innerHTML = 'end';
             clearInterval(timerId);
+            document.removeEventListener('keydown', control);
         }
     }
 

@@ -80,13 +80,13 @@ div {
     height: 40rem;
 }
 
-.next-shape {
+.previous-shape {
     width: 10rem;
     padding-left: 2rem;
     margin-top: -5rem;
 }
 
-.next-grid {
+.previous-grid {
     display: flex;
     flex-wrap: wrap;
     width: 8rem;
