@@ -80,13 +80,13 @@ div {
     height: 40rem;
 }
 
-.previous-shape {
+.next-shape {
     width: 10rem;
     padding-left: 2rem;
     margin-top: -5rem;
 }
 
-.previous-grid {
+.next-grid {
     display: flex;
     flex-wrap: wrap;
     width: 8rem;
@@ -94,23 +94,23 @@ div {
 }
 
 .block {
-    background-image: url(../images/blue_block.png);
+    background-image: url(./images/blue_block.png);
 }
 
 .block2 {
-    background-image: url(../images/purple_block.png);
+    background-image: url(./images/purple_block.png);
 }
 
 .block3 {
-    background-image: url(../images/green_block.png);
+    background-image: url(./images/green_block.png);
 }
 
 .block4 {
-    background-image: url(../images/navy_block.png);
+    background-image: url(./images/navy_block.png);
 }
 
 .block5 {
-    background-image: url(../images/pink_block.png);
+    background-image: url(./images/pink_block.png);
 }
 
 .end {
@@ -172,7 +172,7 @@ div {
 }
 
 .end {
-    background-image: url(/Users/limit/development/Tetris/images/blue_block.png);
+    background-image: url(./images/blue_block.png);
 }
 
 .display {
